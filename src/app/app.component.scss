@@ -1,0 +1,35 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 80px;
+    background-color: pink;
+    padding: 10px;
+}
+
+.active{
+    transform: scale(1.1);
+}
+
+.active a{
+    color: gray;
+}
+
+.container{
+    margin: 20px 80px;
+    background-color: pink;
+    padding: 10px;
+}
